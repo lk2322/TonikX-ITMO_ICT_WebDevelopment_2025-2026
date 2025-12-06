@@ -6,13 +6,13 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="Материалы по лабораторным работам: модели данных, эндпоинты, структура и практическая часть.">
       
       
       
-        <link rel="prev" href="..">
       
+        <link rel="prev" href="../code_structure/">
       
-        <link rel="next" href="../api/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,11 +20,14 @@
     
     
       
-        <title>Запуск и использование - Conference Service — Отчёт</title>
+        <title>Практическая часть - Документация лабораторных работ</title>
       
     
     
       <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -43,8 +46,6 @@
       
     
     
-      <link rel="stylesheet" href="../css/extra.css">
-    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -55,7 +56,12 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="purple">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -64,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#orm" class="md-skip">
           Skip to content
         </a>
       
@@ -76,11 +82,9 @@
     
       
 
-  
-
-<header class="md-header md-header--shadow" data-md-component="header">
+<header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Conference Service — Отчёт" class="md-header__button md-logo" aria-label="Conference Service — Отчёт" data-md-component="logo">
+    <a href=".." title="Документация лабораторных работ" class="md-header__button md-logo" aria-label="Документация лабораторных работ" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -94,21 +98,21 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Conference Service — Отчёт
+            Документация лабораторных работ
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Запуск и использование
+              Практическая часть
             
           </span>
         </div>
       </div>
     </div>
     
+      
     
-      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -162,6 +166,112 @@
       
         
           
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Главная
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../data_models/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Модели данных
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../api_endpoints/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  API эндпоинты
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../code_structure/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Структура кода
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Практическая часть
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
         
       
       <main class="md-main" data-md-component="main">
@@ -175,16 +285,20 @@
                     
 
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Conference Service — Отчёт" class="md-nav__button md-logo" aria-label="Conference Service — Отчёт" data-md-component="logo">
+    <a href=".." title="Документация лабораторных работ" class="md-nav__button md-logo" aria-label="Документация лабораторных работ" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    Conference Service — Отчёт
+    Документация лабораторных работ
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -215,6 +329,72 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../data_models/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Модели данных
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api_endpoints/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    API эндпоинты
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../code_structure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Структура кода
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -227,84 +407,68 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Практическая часть
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    Запуск и использование
+    Практическая часть
     
   </span>
   
 
       </a>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../api/" class="md-nav__link">
         
-  
-  
-  <span class="md-ellipsis">
-    API
-    
-  </span>
-  
 
-      </a>
-    </li>
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
-
+  
+  
     
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Состав
+    </span>
+  </a>
+  
+</li>
       
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Запуск
+    </span>
+  </a>
   
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../admin/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Администрирование
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
+</li>
       
+    </ul>
+  
+</nav>
       
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../screenshots/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Скриншоты
-    
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -316,24 +480,6 @@
               </div>
             
             
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           
             <div class="md-content" data-md-component="content">
@@ -343,18 +489,26 @@
 
 
 
-<h1 id="_1">Запуск и использование</h1>
-<p>Запуск сервиса в режиме разработки:</p>
-<pre><code class="language-bash">uvicorn main:app --reload --port 8001
+<h1 id="orm">Практическая часть (ORM)</h1>
+<p>В каталоге <code>laboratory_work_3/practical</code> собраны небольшие скрипты для отработки Django ORM без запуска основного API.</p>
+<h2 id="_1">Состав</h2>
+<ul>
+<li><code>models.py</code> — настройка Django, описание моделей и создание таблиц при необходимости (<code>ensure_tables()</code>).</li>
+<li><code>seed_data.py</code> — очищает таблицы, заполняет тестовыми владельцами, машинами, удостоверениями и связями, выводит результат.</li>
+<li><code>query_data.py</code> — выполняет выборки и фильтры по уже созданным данным, печатает вывод.</li>
+<li><code>create_data.py</code> — объединяет наполнение и выполнение запросов подряд.</li>
+</ul>
+<h2 id="_2">Запуск</h2>
+<p>В примерах ниже предполагается активированное виртуальное окружение <code>.venv</code> в корне репозитория.</p>
+<pre><code class="language-bash"># Только наполнение
+.venv/bin/python lab1/students/K3341/laboratory_works/Владзиевский_Евгений/laboratory_work_3/practical/seed_data.py
+
+# Только запросы (данные должны уже быть загружены)
+.venv/bin/python lab1/students/K3341/laboratory_works/Владзиевский_Евгений/laboratory_work_3/practical/query_data.py
+
+# Наполнение + запросы одним запуском
+.venv/bin/python lab1/students/K3341/laboratory_works/Владзиевский_Евгений/laboratory_work_3/practical/create_data.py
 </code></pre>
-<p>Откройте веб-интерфейс: http://127.0.0.1:8001/ui/</p>
-<p>Рекомендуемые проверки:
-- Регистрация пользователя
-- Вход
-- Просмотр списка конференций
-- Регистрация на выступление
-- Добавление отзыва
-- Просмотр таблицы участников</p>
 
 
 
@@ -403,7 +557,7 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>

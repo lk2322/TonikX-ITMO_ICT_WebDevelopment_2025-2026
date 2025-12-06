@@ -6,13 +6,15 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="Материалы по лабораторным работам: модели данных, эндпоинты, структура и практическая часть.">
       
       
       
-        <link rel="prev" href="../usage/">
+      
+        <link rel="prev" href="../api_endpoints/">
       
       
-        <link rel="next" href="../admin/">
+        <link rel="next" href="../practical/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,11 +22,14 @@
     
     
       
-        <title>API - Conference Service — Отчёт</title>
+        <title>Структура кода - Документация лабораторных работ</title>
       
     
     
       <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -43,8 +48,6 @@
       
     
     
-      <link rel="stylesheet" href="../css/extra.css">
-    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -55,7 +58,12 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="purple">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -64,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#api" class="md-skip">
+        <a href="#_1" class="md-skip">
           Skip to content
         </a>
       
@@ -76,11 +84,9 @@
     
       
 
-  
-
-<header class="md-header md-header--shadow" data-md-component="header">
+<header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Conference Service — Отчёт" class="md-header__button md-logo" aria-label="Conference Service — Отчёт" data-md-component="logo">
+    <a href=".." title="Документация лабораторных работ" class="md-header__button md-logo" aria-label="Документация лабораторных работ" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -94,21 +100,21 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Conference Service — Отчёт
+            Документация лабораторных работ
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              API
+              Структура кода
             
           </span>
         </div>
       </div>
     </div>
     
+      
     
-      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -162,6 +168,112 @@
       
         
           
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Главная
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../data_models/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Модели данных
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../api_endpoints/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  API эндпоинты
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Структура кода
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../practical/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Практическая часть
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
         
       
       <main class="md-main" data-md-component="main">
@@ -175,16 +287,20 @@
                     
 
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Conference Service — Отчёт" class="md-nav__button md-logo" aria-label="Conference Service — Отчёт" data-md-component="logo">
+    <a href=".." title="Документация лабораторных работ" class="md-nav__button md-logo" aria-label="Документация лабораторных работ" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    Conference Service — Отчёт
+    Документация лабораторных работ
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -218,12 +334,34 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage/" class="md-nav__link">
+      <a href="../data_models/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Запуск и использование
+    Модели данных
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api_endpoints/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    API эндпоинты
     
   </span>
   
@@ -249,17 +387,100 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Структура кода
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    API
+    Структура кода
     
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#labsrc" class="md-nav__link">
+    <span class="md-ellipsis">
+      Дерево каталогов (lab/src)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Важные блоки
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Важные блоки">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Зависимость сессии базы
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      Безопасность и авторизация
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      Алгоритм рекомендаций
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -272,34 +493,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../admin/" class="md-nav__link">
+      <a href="../practical/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Администрирование
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../screenshots/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Скриншоты
+    Практическая часть
     
   </span>
   
@@ -316,24 +515,6 @@
               </div>
             
             
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           
             <div class="md-content" data-md-component="content">
@@ -343,20 +524,43 @@
 
 
 
-<h1 id="api">API</h1>
-<p>Краткое описание основных эндпоинтов.</p>
+<h1 id="_1">Структура кода</h1>
+<p>Проект использует модульную структуру, типичную для FastAPI.</p>
+<h2 id="labsrc">Дерево каталогов (lab/src)</h2>
 <ul>
-<li>GET <code>/conferences</code> — список конференций (поддерживаются фильтры и пагинация)</li>
-<li>POST <code>/conferences</code> — создать конференцию (только админ)</li>
-<li>GET <code>/conferences/{id}</code> — детальная информация</li>
-<li>POST <code>/conferences/{id}/register</code> — регистрация на выступление (через UI)</li>
-<li>POST <code>/reviews</code> — добавить отзыв</li>
-<li>POST <code>/token</code> — получить JWT</li>
+<li>
+<p><strong>api/</strong>: уровень API.</p>
+<ul>
+<li><strong>routers/</strong>: эндпоинты, разделённые по доменам.<ul>
+<li><strong>auth/</strong>: аутентификация.</li>
+<li><strong>posts/</strong>: управление постами.</li>
+<li><strong>users/</strong>: профили пользователей.</li>
+<li><strong>images/</strong>: обработка изображений.</li>
 </ul>
-<p>Примеры curl:</p>
-<pre><code class="language-bash">curl &quot;http://127.0.0.1:8001/conferences?search=ML&amp;page=1&amp;per_page=5&quot;
+</li>
+<li><code>security.py</code>: работа с JWT и зависимостями безопасности.</li>
+<li><code>sessions.py</code>: зависимости для подключения к БД.</li>
+</ul>
+</li>
+<li>
+<p><strong>db/</strong>: слой базы данных.</p>
+<ul>
+<li><code>schemas.py</code>: модели SQLAlchemy.</li>
+<li><code>crud.py</code>: CRUD-операции.</li>
+</ul>
+</li>
+</ul>
+<h2 id="_2">Важные блоки</h2>
+<h3 id="_3">Зависимость сессии базы</h3>
+<p><code>src/api/sessions.py</code> — выдаёт сессию БД на запрос и корректно закрывает её.</p>
+<h3 id="_4">Безопасность и авторизация</h3>
+<p><code>src/api/security.py</code> и <code>src/api/routers/auth</code>:
+- библиотека <code>fastapi-jwt</code> для работы с токенами;
+- <code>access_policy</code> и <code>refresh_policy</code> управляют жизненным циклом токенов.</p>
+<h3 id="_5">Алгоритм рекомендаций</h3>
+<p><code>src/db/schemas.py</code> (функция PL/pgSQL) вычисляет оценку постов по лайкам, комментариям и давности публикации для выдачи рекомендуемой ленты:</p>
+<pre><code class="language-sql">RETURN C * like_count + X * comment_count - F * EXTRACT(EPOCH FROM time_passed);
 </code></pre>
-<p>Вы можете вставить примеры JSON-ответов как изображения в <code>docs/images/api_response_1.png</code>.</p>
 
 
 
@@ -405,7 +609,7 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
